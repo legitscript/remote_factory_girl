@@ -6,8 +6,8 @@ require 'remote_factory_girl/version'
 Gem::Specification.new do |spec|
   spec.name          = "remote_factory_girl"
   spec.version       = RemoteFactoryGirl::VERSION
-  spec.authors       = ["tdouce"]
-  spec.email         = ["travisdouce@gmail.com"]
+  spec.authors       = ["tdouce", "Cormac Mulhall"]
+  spec.email         = ["travisdouce@gmail.com", "cormac.mulhall@legitscript.com"]
   spec.summary       = %q{}
   spec.description   = %q{Create test data when used in conjunction with remote_factory_girl_home_rails}
   spec.homepage      = "https://github.com/tdouce/remote_factory_girl"

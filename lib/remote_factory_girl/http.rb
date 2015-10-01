@@ -25,7 +25,7 @@ module RemoteFactoryGirl
     end
 
     def post
-      @response_json = http_lib.post config.home_url, params, content_type: :json, accept: :json
+      @response_json = http_lib.post config.home_url, params.to_json, :content_type => :json, accept: :json
       self
     end
 
